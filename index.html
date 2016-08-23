@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title></title>
+</head>
+<body class="noselect">
+<div class="container">
+    <header class="contact">
+        <script type="text/template" class="contact_template">
+            <div class="balance right">
+                יתרת עו"ש <span class="green"><%= App.Helpers.FormatAmount(runningBalance) %> ש"ח</span>
+            </div>
+            <div class="star left side-to-side"></div>
+            <div class="total-points left scale">
+                <%= App.Helpers.FormatAmount(totalPoints) %>
+            </div>
+            <div class="clear"></div>
+            <div class="contact-name">
+                <%= name %>
+            </div>
+        </script>
+    </header>
+    <div class="clear"></div>
+    <div class="content">
+        <nav class="menu">
+            <div class="menu-item"><a class="menu-item-link">עו"ש</a></div>
+            <div class="menu-item"><a class="menu-item-link">אשראי</a></div>
+            <div class="menu-item"><a class="menu-item-link">חסכונות</a></div>
+            <div class="menu-item"><a class="menu-item-link">הישגים</a></div>
+            <div class="menu-item"><a class="menu-item-link">טריוויה</a></div>
+        </nav>
+        <div class="clear"></div>
+        <div class="creature">
+            <img class="lumi eye-up-down" src="images/eye-up-down.gif">
+            <img class="lumi excited" src="images/excited.gif">
+            <img class="lumi angry" src="images/angry.gif">
+        </div>
+        <div class="details">
+            <script type="text/template" class="balance_template">
+                <div class="details-menu">
+                    <div class="close">
+                        <a class="close-btn">X</a>
+                    </div>
+                </div>
+                <div class="details-content">
+                    <table class="table">
+                        <tr>
+                            <th class="table-header">תאריך</th>
+                            <th class="table-header">תנועה</th>
+                            <th class="table-header">סכום</th>
+                        </tr>
+                        <% _.each(this.collection, function(model) { %>
+                        <tr class="row">
+                            <td class="table-data"><%= App.Helpers.DateConverter(model.get('date')) %></td>
+                            <td class="table-data"><%= model.get('name') %></td>
+                            <td class="table-data"><%= App.Helpers.FormatAmount(model.get('amount')) %> ש"ח</td>
+                        </tr>
+                        <% }); %>
+                    </table>
+                </div>
+            </script>
+            <script type="text/template" class="trivia_template">
+                <div class="details-menu">
+                    <div class="close">
+                        <a class="close-btn">X</a>
+                    </div>
+                </div>
+                <div class="details-content">
+                    <div class="question"><%= question %></div>
+                    <div class="answer yes"></div>
+                    <div class="answer no"></div>
+                </div>
+            </script>
+            <script type="text/template" class="achievement_template">
+                <div class="details-menu">
+                    <div class="close">
+                        <a class="close-btn">X</a>
+                    </div>
+                </div>
+                <div class="details-content">
+                    <div class="badge">נכנסת לאפליקציה כל השבוע במשך חודש</div>
+                    <div class="badge">שלושה חודשים ברציפות מפקיד לחסכון</div>
+                    <div class="badge">סיימת שנה שלמה ללא מינוס</div>
+                    <div class="prize">מגיע לך ארוחה מפנקת!</div>
+                </div>
+            </script>
+        </div>
+    </div>
+    <footer class="status">
+        <script type="text/template" class="status_template">
+            <div class="charge right">
+                <h2 class="heading">חיוב אשראי</h2>
+                <span class="data red"><%= App.Helpers.FormatAmount(upcomingCharge) %> ש"ח</span>
+            </div>
+            <div class="after_charge left">
+                <h2 class="heading">יתרה לאחר חיוב</h2>
+                <span class="data green"><%= App.Helpers.FormatAmount(runningBalance - upcomingCharge) %> ש"ח</span>
+            </div>
+        </script>
+    </footer>
+</div>
+</body>
+<script type="text/javascript" src="js/libs/jquery.min.js"></script>
+<script type="text/javascript" src="js/libs/underscore-min.js"></script>
+<script type="text/javascript" src="js/libs/backbone-min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</html>

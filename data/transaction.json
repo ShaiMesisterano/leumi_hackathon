@@ -1,0 +1,139 @@
+[
+  {
+	"contactNum": 177923371,
+	"type": "CreditCard",
+	"name": "לאומי ויזה",
+	"category": "ציוד וחלקי חשמל",
+	"amount": -26.5,
+	"date": 1412354460
+  },
+  {
+	"contactNum": 177923371,
+	"type": "CreditCard",
+	"name": "לאומי ויזה",
+	"category": "בגדים והנעלה",
+	"amount": -125.5,
+	"date": 1412527260
+  },
+  {
+	"contactNum": 177923371,
+	"type": "CreditCard",
+	"name": "לאומי ויזה",
+	"category": "מסעדות ובתי קפה",
+	"amount": -45.5,
+	"date": 1412786460
+  },
+  {
+	"contactNum": 177923371,
+	"type": "CreditCard",
+	"name": "לאומי ויזה",
+	"category": "בארים ומועדונים",
+	"amount": -80.5,
+	"date": 1413218460
+  },
+  {
+	"contactNum": 177923371,
+	"type": "CreditCard",
+	"name": "לאומי ויזה",
+	"category": "רשתות פארם",
+	"amount": -32.5,
+	"date": 1413391260
+  },
+  {
+	"contactNum": 177923371,
+	"type": "CreditCard",
+	"name": "לאומי ויזה",
+	"category": "חנויות ספרים",
+	"amount": -60.0,
+	"date": 1413564060
+  },
+  {
+	"contactNum": 177923371,
+	"type": "CreditCard",
+	"name": "לאומי ויזה",
+	"category": "מופעים והצגות",
+	"amount": -55.0,
+	"date": 1413736860
+  },
+  {
+	"contactNum": 177923371,
+	"type": "BankAccount",
+	"name": "לאומי cash 517",
+	"category": "",
+	"amount": -250.0,
+	"date": 1412181660
+  },
+
+  {
+	"contactNum": 177923371,
+	"type": "BankAccount",
+	"name": "שיק 1086",
+	"category": "",
+	"amount": 220.0,
+	"date": 1412354460
+  },
+  {
+	"contactNum": 177923371,
+	"type": "BankAccount",
+	"name": "עמ. ישיר 14",
+	"category": "",
+	"amount": 6.4,
+	"date": 1412527260
+  },
+  {
+	"contactNum": 177923371,
+	"type": "BankAccount",
+	"name": "לאומי ויזה צעיר",
+	"category": "",
+	"amount": 290.0,
+	"date": 1412959260
+  },
+  {
+	"contactNum": 177923371,
+	"type": "BankAccount",
+	"name": "שיק 1088",
+	"category": "",
+	"amount": 80.0,
+	"date": 1413132060
+  },
+  {
+	"contactNum": 177923371,
+	"type": "BankAccount",
+	"name": "שיק 1086",
+	"category": "",
+	"amount": 220.0,
+	"date": 1413304860
+  },
+  {
+	"contactNum": 177923371,
+	"type": "BankAccount",
+	"name": "משרד הבטחון",
+	"category": "",
+	"amount": 600.0,
+	"date": 1413391260
+  },
+  {
+	"contactNum": 177923371,
+	"type": "BankAccount",
+	"name": "לאומי cash 326",
+	"category": "",
+	"amount": 100.0,
+	"date": 1413650460
+  },
+  {
+	"contactNum": 177923371,
+	"type": "SavingAccount",
+	"name": "פק''מ בתשלומים 5597/3",
+	"category": "",
+	"amount": 1000.0,
+	"date": 1412181660
+  },
+  {
+	"contactNum": 177923371,
+	"type": "SavingAccount",
+	"name": "פק''מ בתשלומים 5598/3",
+	"category": "",
+	"amount": 200.0,
+	"date": 1413823260
+  }
+]

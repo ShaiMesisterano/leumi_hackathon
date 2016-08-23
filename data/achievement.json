@@ -1,0 +1,27 @@
+[
+{
+		"contactNum": 177923371,
+		"name": "Login",
+	"addedPoints": 10
+},
+{
+		"contactNum": 177923371,
+		"name": "WatchedIncomeOutcome",
+	"addedPoints": 10
+},
+{
+		"contactNum": 177923371,
+		"name": "WatchedSavings",
+	"addedPoints": 10
+},
+{
+		"contactNum": 177923371,
+		"name": "LoggedIn5DaysInARow",
+	"addedPoints": 100
+},
+{
+		"contactNum": 177923371,
+		"name": "AnsweredTriviaCorrectly",
+	"addedPoints": 100
+}
+]

@@ -1,0 +1,37 @@
+[
+  {
+	"contactNum": 177923371,
+	"question": "האם סיימת את חודש שעבר במינוס?",
+	"correct": false
+  },
+  {
+	"contactNum": 177923371,
+	"question": "האם בחודש שעבר הוצאת יותר מ-300 ש''ח על מסעדות?",
+	"correct": true
+  },
+  {
+	"contactNum": 177923371,
+	"question": "מסגרת אשראי ומסגרת עו''ש הן אותו דבר?",
+	"correct": false
+  },
+  {
+	"contactNum": 177923371,
+	"question": "ניתן לחרוג ממסגרת אשראי 3 פעמים בשנה?",
+	"correct": false
+  },
+  {
+	"contactNum": 177923371,
+	"question": "מוצרים באינטרנט תמיד יותר זולים מאשר בחנויות?",
+	"correct": false
+  },
+  {
+	"contactNum": 177923371,
+	"question": "לבנק לאומי מועדון לקוחות לצעירים המעניק הנחות והטבות?",
+	"correct": true
+  },
+  {
+	"contactNum": 177923371,
+	"question": "בחודש שעבר הוצאת מעל 500 ש''ח על בגדים ונעליים?",
+	"correct": true
+  }
+]
